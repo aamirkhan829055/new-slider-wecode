@@ -258,7 +258,7 @@ main {
         position: absolute;
         top: 54%;
         left: -3rem;
-        transform: translate(14%, -88%);
+        transform: translate(18%, -181%);
     }
 
     .nav {
@@ -269,7 +269,8 @@ main {
     }
 
     .body-main {
-        padding: 265px 0px;
+
+        height: 100vh;
     }
 
     .content {
@@ -301,6 +302,8 @@ main {
             left: 30%;
         }
 
+
+
         &:nth-child(5) {
             left: calc(50% + 280px);
             top: 189px;
@@ -319,7 +322,7 @@ main {
 @media (max-width:567px) {
     .nav {
         position: absolute;
-        bottom: 132px;
+        bottom: 246px;
         left: 52%;
         transform: translateX(-140%);
     }
@@ -335,8 +338,22 @@ main {
         height: 220px;
 
         &:nth-child(3) {
-            left: 5%;
-            top: 139px;
+            left: 17%;
+            top: 38px;
+        }
+
+        &:nth-child(4) {
+            left: calc(50% + 140px);
+            top: 37px;
+            left: 56%;
+
+        }
+
+        &:nth-child(5) {
+            left: calc(50% + 280px);
+            top: 122px;
+            left: 36%;
+            transform: rotateZ(90deg);
         }
     }
 
